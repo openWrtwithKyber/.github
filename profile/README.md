@@ -7,11 +7,11 @@
 - 오픈소스 공유기 펌웨어인 OpenWrt를 수정해 기존 WPA3-SAE와 하이브리드 양자내성암호를 구현합니다.
 - 완성된 펌웨어를 컴파일 후 적용시켜 보안성 및 가용성을 검토합니다.
 ### 🌏사용환경
-- 공유기 : ipTIME AX3000sm (AX3000se)
+- 공유기 : ipTIME AX3000se
   - RAM : DDR3 256MB
   - NAND Flash : 128MB
-- 펌웨어 버전 : 24.10.03 (w1.fi : `5ace39b0a4cdbe18ddbc4e18f80ee3876233c20b`)
-- 빌드 환경 : WSL ubuntu 22.04
+- 펌웨어 버전 : 25.12 (w1.fi : `ca266cc24d8705eb1a2a0857ad326e48b1408b20`)
+- 빌드 환경 : WSL ubuntu 22.04 LTS, WSL ubuntu 24.04 LTS
 - 사용 암호 : ML-KEM (FIPS 203)
 
 ### ☺️팀 소개
